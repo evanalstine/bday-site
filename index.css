@@ -1,0 +1,112 @@
+/*font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Big Shoulders Display', cursive;
+*/
+
+
+body {
+    text-align: center;
+    font-family: 'Big Shoulders Display', cursive;
+    background: linear-gradient(#118EA7, #11A695, #E3E7AF, #F7D6E0, #9D858D);
+    color: #EFF7F6;
+    font-size: 40px;
+}
+
+a {
+    color: whitesmoke;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 2px #11A695;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("floral-gift.jpg");
+    background-size: cover;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#erica-img {
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#demo {
+    background: #EF767A;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EF767A;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gift-img-cheers {
+    height: 250px;
+}
+
+#gift-img-confetti:hover {
+    background-image: url("https://media.giphy.com/media/s2qXK8wAvkHTO/giphy.gif");
+    background-size: center;
+}
+
+#gift-img-dance:hover {
+    background-image: url("https://media.giphy.com/media/gRr7GFHqkaYpj1Dzau/giphy.gif");
+    background-size: center;
+}
+
+#gift-img-phone:hover {
+    background-image: url(https://media.giphy.com/media/O56JjOpDoljTG/giphy.gif);
+    background-size: cover;
+}
+
+#gift-img-cake:hover {
+    background-image: url(https://media.giphy.com/media/3oEhmNLxk9uiTbL9Be/giphy.gif);
+    background-size: center;
+}
+
+#gift-img-cheers:hover {
+    background-image: url(https://media.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif);
+    background-size: center;
+}
+
+#gift-img-old:hover {
+    background-image: url(https://media.giphy.com/media/TfseOfhwd6BJC/giphy.gif);
+    background-size: cover;
+}
+
+#footer {
+    font-style: italic;
+    min-width: 400px;
+    margin: 40px auto 20px;
+}
+
