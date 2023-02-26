@@ -3,13 +3,41 @@ font-family: 'Bebas Neue', cursive;
 font-family: 'Big Shoulders Display', cursive;
 */
 
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 17px;
+        min-width: 320px;     
+    }
+}
+
+@media screen and (min-width: 481px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 25px;
+    }
+ }
+
+@media screen and (min-width: 889px) {
+    body {
+        font-size: 30px;
+    }
+ }
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 40px;
+    }
+ }
 
 body {
     text-align: center;
     font-family: 'Big Shoulders Display', cursive;
     background: linear-gradient(#118EA7, #11A695, #E3E7AF, #F7D6E0, #9D858D);
     color: #EFF7F6;
-    font-size: 40px;
 }
 
 a {
